@@ -84,7 +84,7 @@ public class Fund2PO {
         }
         String url2 = "https://danjuanapp.com/djapi/fund/nav-growth/"+code+"?day=360";
         String result2 = HttpsRequest.get(url2);
-        log.debug(result2);
+//        log.debug(result2);
         JSONObject parse = (JSONObject) JSON.parse(result2);
         JSONObject data = parse.getJSONObject("data");
         JSONArray fundNavGrowth = (JSONArray) data.get("fund_nav_growth");
