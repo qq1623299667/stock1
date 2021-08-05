@@ -46,8 +46,8 @@ public class Fund2PO {
             }
         }
 
-        highestContainer.printResult("{} 已达到 {} 天最高","没有出现最高的");
-        lowestContainer.printResult("{} 已达到 {} 天最低","没有出现最低的");
+        highestContainer.printResult("{} 已达到 {} 天最高","基金收益过高提醒 暂无数据");
+        lowestContainer.printResult("{} 已达到 {} 天最低","基金收益过低提醒 暂无数据");
     }
 
 

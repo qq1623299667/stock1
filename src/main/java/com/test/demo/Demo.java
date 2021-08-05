@@ -44,7 +44,10 @@ public class Demo {
 
         sendMail(HIGH,highestMap);
         sendMail(LOW,lowestMap);
+
+        // 基金校验启动
         Fund2PO.start();
+
         Thread.sleep(3600_000);
     }
 
